@@ -3,14 +3,12 @@ layout: page
 title: "Projects"
 ---
 
-# Projects
+## How does hardware work?
+![How does hardware work? Image]({{ '/assets/images/circuit.png' | relative_url }})
 
-## Project 1
-![Project 1 Image](path/to/project1-image.jpg)
-
-A brief description of Project 1. This is a placeholder for the project details.
+In "How does hardware work?" project, me and my teammates created NOT, AND, OR, XOR and NAND circuits with using transistors on breadboard.
 
 ## Hour of Code
-![Hour of Code Image](path/to/hour-of-code-image.jpg)
+![Hour of Code Image]({{ '/assets/images/hourofcode.jpg' | relative_url }})
 
-A brief description of the Hour of Code initiative. This is a placeholder for the project details.
+In "Hour of Code" project, me and my teammates went to school № 255 and teached 6th graders base of programming.

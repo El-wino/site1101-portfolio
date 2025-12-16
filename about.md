@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About Me"
+title: "About me"
 ---
 
-# About Me
+# Who am i?
 
-Welcome to my portfolio! I am a passionate developer with a love for creating innovative solutions. Stay tuned for more updates about my journey and projects.
+Hi, I am Elvin Orujov. I am 17 years old first year stundent in ADA univeristy. I study Computer Science. I have been learning programming since i'm 12 years old. I have competed in different programming olimpiads such as "RFO" and won awards.

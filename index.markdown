@@ -28,10 +28,10 @@ layout: home
 </style>
 
 <section class="profile-hero">
-  <img src="/assets/images/profilephoto.jpg" alt="Profile photo" class="profile-photo" />
+  <img src="{{ '/assets/images/profilephoto.jpg' | relative_url }}" alt="Profile photo" class="profile-photo" />
 
   <div class="profile-bio">
-    <h1>Hello — I'm [Your Name]</h1>
-    <p>I'm a developer and designer who loves building accessible, user-friendly web experiences. This is a placeholder bio — replace with a short description about yourself.</p>
+    <h1>Hello — I'm Elvin Orujov</h1>
+    <p>I'm a first year Computer Science student in ADA university.</p>
   </div>
 </section>
