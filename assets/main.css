@@ -1,0 +1,124 @@
+body {
+  background: #f0f8f9;
+  color: #2c3e50;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  background: none;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin: 1rem 0 0 0;
+}
+nav a {
+  color: #0a7ba7;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #05a3cc;
+}
+
+main {
+  flex: 1 0 auto;
+  max-width: 700px;
+  margin: 2rem auto 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d4e8eb;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+.profile-bio h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.profile-bio p {
+  font-size: 1.1rem;
+  color: #5a6c7d;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 380px;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  margin: 1.2rem 0 1.2rem 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+}
+
+hr.section-divider {
+  border: none;
+  border-top: 1.5px solid #d4e8eb;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+hr.section-divider-bottom {
+  border: none;
+  border-bottom: 1.5px solid #d4e8eb;
+  margin: 0 0 2.5rem 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem 0;
+  background: none;
+  color: #5a6c7d;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
+footer a {
+  color: #0a7ba7;
+  margin: 0 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+footer a:hover {
+  color: #05a3cc;
+}
+
+@media (max-width: 700px) {
+  main { padding: 1rem 0.5rem; }
+  .profile-hero { flex-direction: column; gap: 1.2rem; text-align: center; }
+  .profile-photo { width: 100px; height: 100px; }
+}
