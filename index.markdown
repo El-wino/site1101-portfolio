@@ -32,6 +32,6 @@ layout: home
 
   <div class="profile-bio">
     <h1>Hello — I'm Elvin Orujov</h1>
-    <p>I'm a first year Computer Science student in ADA university.</p>
+    <p>I'm a first year Computer Science student in ADA university. I enjoy coding and learning.</p>
   </div>
 </section>
