@@ -61,8 +61,8 @@ nav a:hover {
   box-shadow: 0 1px 6px rgba(0,0,0,0.08);
   padding: 0.5rem 1.2rem;
   margin: 0 0.5rem;
-  color: #0a7ba7 !important;
-  font-weight: 500;
+  color: #2c3e50 !important;
+  font-weight: 700;
   text-decoration: none;
   transition: background 0.2s;
 }
